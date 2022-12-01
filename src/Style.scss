@@ -1,0 +1,48 @@
+.container {
+    max-width: 400px;
+    min-height: 450px;
+    background-color: rgb(231, 173, 173);
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 15px 50px;
+    box-shadow: 0 0 10px gray;
+
+
+    .heading {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .expense-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 10px;
+        box-shadow: 0 0 10px gray;
+        border-radius: 10px;
+    }
+
+    .trnsaction-list {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .trnsaction-list>li {
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0 0 10px gray;
+        padding: 10px 15px;
+        background-color: white;
+        margin: 5px 0;
+        border-radius: 4px;
+    }
+
+    .trnsaction-from input {
+        width: 100%;
+        margin: 10px 0;
+        padding: 5px 5px;
+      }
+
+}
